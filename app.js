@@ -26,7 +26,7 @@ app.get("/personajes/:id", (req, res) => {
       return res.status(404).send("El personaje que busca no se encuentra");
     }
 
-    return res.json(personajes);
+    return res.json(personaje);
   });
 });
 
